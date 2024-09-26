@@ -14,25 +14,25 @@ public class CspController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Report([FromBody] CspReport report)
+    public Task<IActionResult> Report([FromBody] CspReport report)
     {
         // Log the CSP violation to Application Insights
         _telemetryClient.TrackEvent("CspViolation", new Dictionary<string, string>
         {
-            { "DocumentUri", report.DocumentUri },
-            { "Referrer", report.Referrer },
-            { "BlockedUri", report.BlockedUri },
-            { "ViolatingDirective", report.ViolatingDirective },
+            { "DocumentUri", report.DocumentUri ?? "Unkown" },
+            { "Referrer", report.Referrer ?? "Unkown" },
+            { "BlockedUri", report.BlockedUri ?? "Unkown" },
+            { "ViolatingDirective", report.ViolatingDirective ?? "Unkown" },
         });
 
-        return Ok();
+        return Task.FromResult<IActionResult>(Ok());
     }
 }
 
 public class CspReport
 {
-    public string DocumentUri { get; set; }
-    public string Referrer { get; set; }
-    public string BlockedUri { get; set; }
-    public string ViolatingDirective { get; set; }
+    public string? DocumentUri { get; set; }
+    public string? Referrer { get; set; }
+    public string? BlockedUri { get; set; }
+    public string? ViolatingDirective { get; set; }
 }

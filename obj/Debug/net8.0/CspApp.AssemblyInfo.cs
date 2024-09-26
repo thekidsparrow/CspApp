@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CspApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b136c917356317d51dd2100df07d7625f3af72f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+667eec50f651b55372c3120580263d3ed8a6402e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CspApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CspApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

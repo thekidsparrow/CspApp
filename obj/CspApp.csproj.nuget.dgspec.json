@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/averyhart/CspApp/CspApp.csproj": {}
+    "C:\\Users\\avery.hart\\source\\repos\\CspApp\\CspApp.csproj": {}
   },
   "projects": {
-    "/Users/averyhart/CspApp/CspApp.csproj": {
+    "C:\\Users\\avery.hart\\source\\repos\\CspApp\\CspApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/averyhart/CspApp/CspApp.csproj",
+        "projectUniqueName": "C:\\Users\\avery.hart\\source\\repos\\CspApp\\CspApp.csproj",
         "projectName": "CspApp",
-        "projectPath": "/Users/averyhart/CspApp/CspApp.csproj",
-        "packagesPath": "/Users/averyhart/.nuget/packages/",
-        "outputPath": "/Users/averyhart/CspApp/obj/",
+        "projectPath": "C:\\Users\\avery.hart\\source\\repos\\CspApp\\CspApp.csproj",
+        "packagesPath": "C:\\Users\\avery.hart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avery.hart\\source\\repos\\CspApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/averyhart/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\avery.hart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
